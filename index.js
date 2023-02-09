@@ -5,7 +5,7 @@ const port = 3000;
 
 app.use(bodyParse.json())
 
-app.get('/', (req, res) => {
+app.get('/firstAPI', (req, res) => {
     res.send('Hello World! I am BE demo application');
 });
 
