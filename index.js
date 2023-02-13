@@ -6,7 +6,7 @@ const port = 3000;
 app.use(bodyParse.json())
 
 app.get('/firstAPI', (req, res) => {
-    res.status(200).send('Hello World! I am BE demo application');
+    res.status(200).send('Hello World! I am BE demo application. This is first testing pipeline');
 });
 
 app.listen(port, () => {
